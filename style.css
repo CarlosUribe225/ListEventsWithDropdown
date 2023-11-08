@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-main {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    text-align:left;
+}
+
+.introduction {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.introduction p {
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.container {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.container h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 350px;
+    font-size: 50px;
+    color: white;
+    background: #2b2323;
+}
+
+
+.card {
+    width: 900px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 650px;
+    height: 400px;
+    display: block;
+}
+
+.intro-telecaster {
+    width: 640px;
+    height: 40px;
+    padding: 5px;
+    position: absolute;
+    background: rgb(27, 27, 27, 0.5);
+    color: white;
+    bottom: 160px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.intro-telecaster h3 {
+    font-size: 30px;
+    padding: 3px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+
+.intro-telecaster p {
+    width: auto;
+    margin: 5px;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-telecaster:hover {
+    height: 120px;
+    bottom: 160px;
+    background: black;
+    
+}
+
+.intro-telecaster:hover p {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.intro-stratocaster {
+    width: 640px;
+    height: 40px;
+    padding: 5px;
+    position: absolute;
+    background: rgb(27, 27, 27, 0.5);
+    color: white;
+    bottom: -250px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.intro-stratocaster h3 {
+    font-size: 30px;
+    padding: 3px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+
+.intro-stratocaster p {
+    width: auto;
+    margin: 5px;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-stratocaster:hover {
+    height: 120px;
+    bottom: -250px;
+    background: black;
+}
+
+.intro-stratocaster:hover p {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+.intro-super-strat {
+    width: 640px;
+    height: 40px;
+    padding: 5px;
+    position: absolute;
+    background: rgb(27, 27, 27, 0.5);
+    color: white;
+    bottom: -660px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.intro-super-strat h3 {
+    font-size: 30px;
+    padding: 3px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+
+.intro-super-strat p {
+    width: auto;
+    margin: 5px;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-super-strat:hover {
+    height: 120px;
+    bottom: -660px;
+    background: black;
+}
+.intro-super-strat:hover p {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+.intro-les-paul {
+    width: 640px;
+    height: 40px;
+    padding: 5px;
+    position: absolute;
+    background: rgb(27, 27, 27, 0.5);
+    color: #ffffff;
+    bottom: -1070px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.intro-les-paul h3 {
+    font-size: 30px;
+    padding: 3px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+
+.intro-les-paul p {
+    width: auto;
+    margin: 5px;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-les-paul:hover {
+    height: 120px;
+    bottom: -1070px;
+    background: black;
+}
+
+.intro-les-paul:hover p {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+.intro-sg-flying {
+    width: 640px;
+    height: 40px;
+    padding: 5px;
+    position: absolute;
+    background: rgb(27, 27, 27, 0.5);
+    color: white;
+    bottom: -1480px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.intro-sg-flying h3 {
+    font-size: 30px;
+    padding: 3px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+
+.intro-sg-flying p {
+    width: auto;
+    margin: 5px;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-sg-flying:hover {
+    height: 120px;
+    bottom: -1480px;
+    background: black;
+}
+
+.intro-sg-flying:hover p {
+    opacity: 1;
+    visibility: visible;
+}
+
+
